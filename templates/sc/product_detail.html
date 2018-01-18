@@ -1,0 +1,142 @@
+{% extends "../base.html" %}
+
+{% block title %}
+{{ site.name }}
+{% end %}
+
+{% block header %}
+{% include '../home/header_inside.html' %}
+{% end %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{{ site_base }}/common/js/bodegas/dist/bodegas.client.css">
+<link rel="stylesheet" href="{{ site_base }}/static/css/servicios.css">
+<link rel="stylesheet" href="{{ site_base }}/static/css/header_inside.css">
+
+{% end %}
+
+{% block javascript %}
+<script type="text/javascript" src="{{ site_base }}/static/js/product_detail.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function()
+    {
+        var base_url = $.environmentVar(
+            'https://apibodegas.loadingplay.com/',
+            'https://apibodegas.loadingplay.com/',
+            'https://apibodegas.loadingplay.com/');
+        var checkout_url = $.environmentVar(
+            'https://pay.loadingplay.com',
+            'https://pay.loadingplay.com',
+            'https://pay.loadingplay.com');
+        var app_public = $.environmentVar(29,29,58);
+
+        $(document).ecommerce('product_detail', {
+            'app_public' : app_public,
+            'base_url' : base_url,
+            'checkout_url': checkout_url,
+            'product_id' : {{ product_id }},
+            'container' : '.product-detail',
+            onLoad: function(product){
+                related(product.bullet_3);
+
+                if (product.bullet_1 != "" ){
+                    $.get(site_base + "/article/tag?tag="+product.bullet_1, function(data)
+                    {
+                        $("#article-reladed").html(data);
+                    });
+                }
+            }
+        });
+
+        // productos relacionados
+        var related = function(tag)
+        {
+            var config = {
+                'app_public' : app_public,
+                'base_url' : base_url,
+                'maxProducts' : 8,
+                'templateOrigin' : '#product_template',
+                'tag' : '',
+                'ignore_stock' : true,
+                    'onLoad':function(){
+                         // $('.ellipsis').ellipsis();
+                         $(".ellipsis").dotdotdot();
+                     }
+                
+            };
+            $('.product-related').ecommerce('product_box', config);
+        };
+    });
+
+</script>
+
+
+
+<script type="text/template" id="product_detail">
+  <section>
+      <div style="position: relative;">
+         <div>
+            <img src="{{! images[0]['thumb_500'] }}" title="" alt="" class="fondo-service" id="img_detail">
+            <div class="container" style="position: absolute; height: 420px; top: 0; width: 95%;">
+              <div align="center">
+                <div class="col-md-12 col-xs-12 pos-left" style="position: absolute; height: auto; bottom: 0;">
+                  <p class="titleservice2">BLIVE | Servicios </p>
+                  <h1 class="titleservice name ellipsis multiline" href="#">{{! name }}</h1>
+                </div>
+            </div>
+
+            </div>
+         </div>
+        <div align="center">
+          <div class="lateral l-movil" style="position: relative; margin-top: -403px; float:left; left:40px;">
+            
+         </div>
+       </div>
+      </div>
+      <div class="container">
+              <h3 class="bajadaservice ellipsis multiline">{{! bullet_2 }}</h3>
+              <h3 class="descriptservice ellipsis multiline">{{! description }}</h3>
+          <hr>
+          <div class="btn-to-contact col-md-12" align="center">
+            <input class="btn-contactanos" type="button" onclick="location.href='{{site_base}}/contact' " value="Contáctanos" name="boton" /> 
+          </div>
+       </div>
+     </div>
+    </section>
+
+
+        <div class="clearfix-fun-2"></div>
+        <div class="container">
+
+        </div>
+    </div>
+
+</script>
+
+
+<!-- 
+{% end %} -->
+
+
+
+{% block body %}
+
+
+
+<div class="container-fluid">
+    
+    <div class="container  product-page"></div>
+
+    </div>
+
+</div>
+
+
+<div class="product-detail" style="min-height: 700px;"></div>
+
+
+
+{% include '../home/footer.html' %}
+{% end %}
