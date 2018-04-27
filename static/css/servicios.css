@@ -565,7 +565,21 @@ hr.len
     .col-md-12:nth-child(even)>.lef {
         margin-top: 60px;
     }
-
+    .bajadaservice 
+    {
+        position: relative;
+        left: 4px;
+        top: 65px;
+        width: 98%;
+        text-align: left;
+        color: #7a7c7c;
+        height: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.8em;
+        line-height: normal;
+        margin-bottom: 90px;
+  }
 }
 /* ESTE CODIGO DE 480 ESTA OK*/
 @media (max-width: 480px){
@@ -685,7 +699,21 @@ hr.len
         position: absolute;
         top: -115px;
     }
-
+    .bajadaservice 
+    {
+        position: relative;
+        left: 4px;
+        top: 65px;
+        width: 98%;
+        text-align: left;
+        color: #7a7c7c;
+        height: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: normal;
+        margin-bottom: 90px;
+    }
 }
 /* ESTE CODIGO DE 320 ESTA OK*/
 @media (max-width: 320px){
@@ -772,8 +800,22 @@ hr.len
     {
         width: 108%;
         
+    }  
+    .bajadaservice 
+    {
+        position: relative;
+        left: 4px;
+        top: 65px;
+        width: 98%;
+        text-align: left;
+        color: #7a7c7c;
+        height: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: normal;
+        margin-bottom: 90px;
     }
-
 }
 
 

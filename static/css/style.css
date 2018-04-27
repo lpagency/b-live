@@ -105,6 +105,7 @@ div.upload input, div.image-upload input
 {
     position: relative;
     width: 100%;
+    margin-bottom: 5%;
 }
 
 .texto-banner
@@ -426,8 +427,7 @@ img.change-image
 }
 
 @media (max-width: 768px)
-{
-
+{   
     h1,
     .h1
     {
@@ -517,6 +517,10 @@ img.change-image
     .col-md-12:nth-child(even)>.lef 
     {
         text-align: left !important;
+    }
+    .img-service-home
+    {
+        margin-bottom: 15%;
     }
 }
 
