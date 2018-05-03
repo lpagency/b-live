@@ -449,7 +449,8 @@ hr.len
     top: 51px;
 }
 
-.detail-arts{
+.detail-arts
+{
     margin-top: 0px;
     margin-bottom: 15px;
     padding: 0px;
@@ -557,15 +558,14 @@ hr.len
 
     .align-box
     {
-    position: relative !important;
-    right: 15px !important;
+        position: relative !important;
+        right: 15px !important;
     }
 
     .titulo 
     {
         position: relative;
         width: 93%;
-        /*font-size: 18px;*/
     }
 
     .list-art-home
@@ -573,7 +573,8 @@ hr.len
         margin: 20% 0;
     }
 
-     .col-md-12:nth-child(even)>.lef>.tres {
+     .col-md-12:nth-child(even)>.lef>.tres
+     {
         left: 0px;
     }
 
@@ -583,9 +584,11 @@ hr.len
         position: relative;
     }
 
-    .col-md-12:nth-child(even)>.lef {
+    .col-md-12:nth-child(even)>.lef
+    {
         margin-top: 60px;
     }
+
     .bajadaservice 
     {
         position: relative;
@@ -750,11 +753,13 @@ hr.len
         left: 0;
           margin-top: 0px;
     }
+
     .til-ban-qs-2 
     {
         position: absolute;
         top: -115px;
     }
+
     .bajadaservice
     {
         position: relative;
@@ -920,9 +925,9 @@ hr.len
 
 @media all and (max-width: 700px)
 {
-    .article-box {
+    .article-box
+    {
         padding: 0px 48px 10px 43px;
         left: 0px;
     }
-
 }

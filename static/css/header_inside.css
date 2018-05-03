@@ -180,7 +180,6 @@
   font-weight: bold;
 }
 
-
 .texto-header
 {
   position: absolute;
@@ -285,7 +284,6 @@
     right: -20px;
   }
 }
-
 
 @media (max-width: 375px)
 {

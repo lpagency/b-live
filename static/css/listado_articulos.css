@@ -880,7 +880,9 @@ hr.len
     {
         width: 108%;
     }
-    .list-service-art {
+
+    .list-service-art
+    {
         top: 70px;
     }
 }

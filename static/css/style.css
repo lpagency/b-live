@@ -273,7 +273,6 @@ div.image-upload input
     font-size: 35px;
     font-weight: 700;
     height: 100px;
-
 }
 
 input, 
@@ -424,7 +423,6 @@ img.change-image
     {
         font-size: 3rem !important;
     }
-
 }
 
 @media (max-width: 768px)

@@ -19,6 +19,7 @@ hr
     text-decoration: none;
     color:#555;
 }
+
 .no-dot>li>a:focus 
 {
     outline:none;
@@ -45,7 +46,7 @@ hr
 
 .ul-1
 {
-     font-size: 27px;
+    font-size: 27px;
     color: #555;
     font-weight: 400;
     width: 110%;
@@ -104,12 +105,13 @@ hr
 
 .pas-4
 {
-      color: gray;
+    color: gray;
     font-size: 15px;
     text-align: right;
 }
 
-.no-dot {
+.no-dot 
+{
     position: relative;
     left: -16px;
     height:100%;
@@ -182,7 +184,6 @@ a.a-footer
     }
 }
 
-
 @media (max-width: 1147px)
 {
     .inform-comerc 
@@ -213,7 +214,6 @@ a.a-footer
     }
 }
 
-
 @media (max-width: 1038px)
 {
     .no-doti 
@@ -223,7 +223,6 @@ a.a-footer
         width: 140%;
     }
 }
-
 
 @media (max-width: 1000px)
 {
@@ -244,7 +243,6 @@ a.a-footer
         width: 130%;
     }
 }
-
 
 @media (max-width: 886px)
 {
@@ -309,7 +307,6 @@ a.a-footer
     }
 }
 
-
 @media (max-width: 420px)
 {
     .caja_datos 
@@ -322,7 +319,6 @@ a.a-footer
     {
         left: 15%;
     }
-
 }
 
 @media (max-width: 320px)
