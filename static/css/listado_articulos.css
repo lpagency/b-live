@@ -13,7 +13,7 @@
 {
     background-attachment: fixed;
     height: 620px;
-    background-size: cover;
+    background-size: cover !important;
     margin-top: -180px;
     filter: grayscale(0%) brightness(65%);
     -webkit-filter: grayscale(0%) brightness(65%);
@@ -371,15 +371,17 @@ hr.len
     font-family: 'Open Sans', sans-serif;
     font-size: 4rem;
     font-weight: 100;
-    color:#fff;
+    color: #fff;
     text-align: left;
+    left: 5%;
+    z-index: 10000;
 }
 
 .list-service-art
 {
     position: relative;
     top: 92px;
-    right: 13%;
+    right: 7%;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -388,7 +390,7 @@ hr.len
 {
     color: rgb(141, 143, 143);
     font-size: 2.4rem;
-    margin: 5% 0;
+    margin: 5% 3%;
     height: auto;
 }
 
@@ -421,7 +423,8 @@ hr.len
     top: 51px;
 }
 
-.detail-arts{
+.detail-arts
+{
     margin-top: 0px;
     margin-bottom: 15px;
     padding: 0px;
@@ -579,6 +582,52 @@ hr.len
         margin-left: 3%;
     }
 
+    .texto-detalle 
+    {
+        width: 100%;
+        text-align: justify;
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+
+    .til-ban-2 
+    {
+        font-size: 2rem;
+        margin-bottom: 15%;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .service-banner-art 
+    {
+        position: absolute;
+        width: 98%;
+        top: 8%;
+        right: 1%;
+        color: #fff;
+    }
+
+    .list-service-art
+    {
+        position: relative;
+        top: 92px;
+        right: 0%;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .list-service-ul 
+    {
+        max-width: 100%;
+        margin-left: 0%;
+        padding: 0;
+    }
+    
+    .tittle-service-home-art>p>span 
+    {
+        font-size: 2rem !important;
+    }
 }
 
 @media (max-width: 480px)
@@ -604,9 +653,10 @@ hr.len
     }
 
     .list-service-ul 
-    {
+    {   
         max-width: 100%;
-        margin-left: 3%;
+        margin-left: 0%;
+        padding: 0;
     }
 
     .vermasbtn 
@@ -632,7 +682,7 @@ hr.len
     {
         font-size: 2rem !important;
         margin-bottom: 15%;
-        width: 67%;
+        width: 100%;
     }
 
     .mobile-det
@@ -648,6 +698,12 @@ hr.len
     .tittle-service-home-art 
     {
         font-size: 2rem;
+        left: 0;
+    }
+
+    .tittle-service-home-art>p>span 
+    {
+        font-size: 2rem !important;
     }
 
     .cuatro
@@ -712,7 +768,7 @@ hr.len
     {
         font-size: 2rem !important;
         margin-bottom: 15%;
-        width: 60%;
+        width: 100%;
     }
 }
 
@@ -823,6 +879,11 @@ hr.len
     .col-md-12:nth-child(even)>.lef 
     {
         width: 108%;
+    }
+
+    .list-service-art
+    {
+        top: 70px;
     }
 }
 

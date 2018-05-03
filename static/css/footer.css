@@ -1,10 +1,14 @@
-hr {
+hr 
+{
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
     border-top: 2px solid rgba(153, 153, 153, 0.38);
-    width:99%;
+    width: 98%;
+    position: relative;
+    left: 16px;
 }
+
 .no-dot>li>a
 {
     color: #808080;
@@ -15,17 +19,20 @@ hr {
     text-decoration: none;
     color:#555;
 }
-.no-dot>li>a:focus {
+
+.no-dot>li>a:focus 
+{
     outline:none;
     outline:none;
     outline-offset: -2px;
 }
 
-
-.caja-logo-footer{
+.caja-logo-footer
+{
     height: 100%;
     width: 155px;
 }
+
 .logo-footer
 {
     max-width: 300px;
@@ -33,11 +40,13 @@ hr {
     object-fit: contain;
     position: relative;
     z-index: 2;
-   right: 0px;
+    right: 0px;
     top: 0px;
 }
-.ul-1{
-     font-size: 27px;
+
+.ul-1
+{
+    font-size: 27px;
     color: #555;
     font-weight: 400;
     width: 110%;
@@ -46,25 +55,28 @@ hr {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.pas{
+.pas
+{
     font-weight: 600;
     font-size: 16px;
     color: gray;
 }
 
-.inform-comerc{
+.inform-comerc
+{
     width: 100%;
     position: relative;
     z-index: 1030;
 }
 
-
-.inform-comerc-2{
+.inform-comerc-2
+{
     width: 100%;
     height: 100%;
 }
 
-.ul-2{
+.ul-2
+{
     font-weight: 600;
     color: gray;
     font-size: 16px;
@@ -72,7 +84,8 @@ hr {
     overflow: hidden;
 }
 
-.pas-2{
+.pas-2
+{
     text-align: right;
     margin-left: -3px;
     width: 100%;
@@ -81,7 +94,8 @@ hr {
 
 }
 
-.pas-3{
+.pas-3
+{
     margin-left: 4px;
     width: 100%;
     text-align: right;
@@ -89,28 +103,24 @@ hr {
     color: gray;
 }
 
-.pas-4{
-      color: gray;
+.pas-4
+{
+    color: gray;
     font-size: 15px;
     text-align: right;
 }
 
-.d-o{
-
-}
-
-.no-dot {
+.no-dot 
+{
     position: relative;
     left: -16px;
-    /* width: 118%; */
-    /*margin-bottom: 45px; */
     height:100%;
     overflow: hidden;
-    /* display: table-cell; */
     padding: 4px;
 }
 
-.no-doti{
+.no-doti
+{
     position: relative;
     left: -27px;
     width: 132%;
@@ -119,137 +129,158 @@ hr {
     overflow: hidden;
 }
 
-a.a-footer{
+a.a-footer
+{
   color: #428bca;
 }
 
-.img-tel{
+.img-tel
+{
     width: 30px;
     position: relative;
     bottom: 2px;
 }
-.caja_footer{
+
+.caja_footer
+{
     position: relative;
     display: inline-flex;
     max-width: 150px;
     padding: 13px 1%;
 }
-.caja_datos{
 
+.caja_datos
+{
     position: relative;
     max-width: 300px;
     float: right;
-    /* left: 65%; */
     top: 8px;
 }
-.footer_gral{
 
+.footer_gral
+{
     margin-top: 3%;
     position: relative;
     width: 100%;
     overflow: hidden;
     color: #808080;
 }
+
 /*----------------------------------------------Responsive-----------------------------------*/
-@media (max-width: 1271px){
-    .no-dot {
+@media (max-width: 1271px)
+{
+    .no-dot 
+    {
         position: relative;
         left: -27px;
         width: 103%;
     }
-    .no-doti {
+
+    .no-doti 
+    {
         position: relative;
         left: -36px;
         width: 144%;
     }
 }
 
-
-@media (max-width: 1147px){
-    .inform-comerc {
+@media (max-width: 1147px)
+{
+    .inform-comerc 
+    {
         width: 100%;
         position: relative;
         left: 56px;
     }
 }
 
-@media (max-width: 1110px){
-        .no-doti {
+@media (max-width: 1110px)
+{
+    .no-doti 
+    {
         position: relative;
         left: -36px;
         width: 132%;
     }
-
 }
 
-@media (max-width: 1060px){
-    .no-doti {
+@media (max-width: 1060px)
+{
+    .no-doti 
+    {
         position: relative;
         left: -36px;
         width: 135%;
     }
-
 }
 
-
-@media (max-width: 1038px){
-    .no-doti {
-    position: relative;
-    left: -36px;
-    width: 140%;
+@media (max-width: 1038px)
+{
+    .no-doti 
+    {
+        position: relative;
+        left: -36px;
+        width: 140%;
+    }
 }
 
+@media (max-width: 1000px)
+{
+    .no-doti 
+    {
+        position: relative;
+        left: -36px;
+        width: 155%;
+    }
 }
 
-
-@media (max-width: 1000px){
-    .no-doti {
-    position: relative;
-    left: -36px;
-    width: 155%;
+@media (max-width: 991px)
+{
+    .no-doti 
+    {
+        position: relative;
+        left: -36px;
+        width: 130%;
+    }
 }
 
-}
-
-@media (max-width: 991px){
-    .no-doti {
-    position: relative;
-    left: -36px;
-    width: 130%;
-}
-
-}
-
-
-@media (max-width: 886px){
-    .d-o {
+@media (max-width: 886px)
+{
+    .d-o 
+    {
         margin-left: 13px;
     }
-    .inform-comerc {
+
+    .inform-comerc 
+    {
         width: 100%;
         position: relative;
         left: 62px;
         z-index: 2000000;
     }
-
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px)
+{
     .caja_footer
     {
         max-width: 100%;
         padding:0px;
         height: 35px;
     }
-    .ul-2 {
+
+    .ul-2 
+    {
         text-align: left;
     }
+
     .caja-logo-footer 
     {
-    position: relative;
-    left: 2%;
-    margin-bottom: 10%;
+        position: relative;
+        left: 2%;
+        margin-bottom: 10%;
     }
+
     .caja_datos 
     {
         float: left;
@@ -263,38 +294,53 @@ a.a-footer{
         width: 95%;
         text-align: left;
     }
+
     .pas-3 
     {
         margin-left: 0px;
         text-align: left;
     }
+
     .pas-4 
     {
     text-align: left;
     }
 }
 
-
-@media (max-width: 420px){
-    .caja_datos {
-    float: left;
-    left: 15%;
-    }
-    .inform-comerc {
+@media (max-width: 420px)
+{
+    .caja_datos 
+    {
+        float: left;
         left: 15%;
     }
 
+    .inform-comerc 
+    {
+        left: 15%;
+    }
 }
 
-@media (max-width: 320px){
-    .caja_datos {
+@media (max-width: 320px)
+{
+    .caja_datos 
+    {
         float: left;
         left: 12%;
     }
-    .inform-comerc {
-    left: 12%;
+
+    .inform-comerc 
+    {
+        left: 12%;
     }
-    .caja-logo-footer {
+
+    .caja-logo-footer 
+    {
         left: -3%;
-        }
+    }
+    
+    .footer_gral 
+    {
+        margin-top: 20%;
+    }
 }
