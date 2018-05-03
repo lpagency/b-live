@@ -34,7 +34,8 @@ li
     list-style: none;
 }
 
-div.upload input, div.image-upload input
+div.upload input, 
+div.image-upload input
 {
     width: 100%;
 }
@@ -421,7 +422,7 @@ img.change-image
     h1,
     .h1
     {
-        font-size: 3rem !important;;
+        font-size: 3rem !important;
     }
 
 }
@@ -431,7 +432,7 @@ img.change-image
     h1,
     .h1
     {
-        font-size: 3rem !important;;
+        font-size: 3rem !important;
     }
 
     .titulo
@@ -534,7 +535,7 @@ img.change-image
     h1,
     .h1
     {
-        font-size: 2rem !important;;
+        font-size: 2rem !important;
     }
 
     .titulo

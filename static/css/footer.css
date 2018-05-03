@@ -8,6 +8,7 @@ hr
     position: relative;
     left: 16px;
 }
+
 .no-dot>li>a
 {
     color: #808080;
@@ -25,12 +26,12 @@ hr
     outline-offset: -2px;
 }
 
-
 .caja-logo-footer
 {
     height: 100%;
     width: 155px;
 }
+
 .logo-footer
 {
     max-width: 300px;
@@ -38,9 +39,10 @@ hr
     object-fit: contain;
     position: relative;
     z-index: 2;
-   right: 0px;
+    right: 0px;
     top: 0px;
 }
+
 .ul-1
 {
      font-size: 27px;
@@ -65,7 +67,6 @@ hr
     position: relative;
     z-index: 1030;
 }
-
 
 .inform-comerc-2
 {
@@ -111,11 +112,8 @@ hr
 .no-dot {
     position: relative;
     left: -16px;
-    /* width: 118%; */
-    /*margin-bottom: 45px; */
     height:100%;
     overflow: hidden;
-    /* display: table-cell; */
     padding: 4px;
 }
 
@@ -140,6 +138,7 @@ a.a-footer
     position: relative;
     bottom: 2px;
 }
+
 .caja_footer
 {
     position: relative;
@@ -147,14 +146,15 @@ a.a-footer
     max-width: 150px;
     padding: 13px 1%;
 }
+
 .caja_datos
 {
     position: relative;
     max-width: 300px;
     float: right;
-    /* left: 65%; */
     top: 8px;
 }
+
 .footer_gral
 {
     margin-top: 3%;
@@ -163,6 +163,7 @@ a.a-footer
     overflow: hidden;
     color: #808080;
 }
+
 /*----------------------------------------------Responsive-----------------------------------*/
 @media (max-width: 1271px)
 {
@@ -172,6 +173,7 @@ a.a-footer
         left: -27px;
         width: 103%;
     }
+
     .no-doti 
     {
         position: relative;
@@ -181,8 +183,10 @@ a.a-footer
 }
 
 
-@media (max-width: 1147px){
-    .inform-comerc {
+@media (max-width: 1147px)
+{
+    .inform-comerc 
+    {
         width: 100%;
         position: relative;
         left: 56px;
@@ -210,7 +214,8 @@ a.a-footer
 }
 
 
-@media (max-width: 1038px){
+@media (max-width: 1038px)
+{
     .no-doti 
     {
         position: relative;
@@ -230,7 +235,8 @@ a.a-footer
     }
 }
 
-@media (max-width: 991px){
+@media (max-width: 991px)
+{
     .no-doti 
     {
         position: relative;
@@ -242,16 +248,18 @@ a.a-footer
 
 @media (max-width: 886px)
 {
-    .d-o {
+    .d-o 
+    {
         margin-left: 13px;
     }
-    .inform-comerc {
+
+    .inform-comerc 
+    {
         width: 100%;
         position: relative;
         left: 62px;
         z-index: 2000000;
     }
-
 }
 
 @media (max-width: 768px)
@@ -262,15 +270,19 @@ a.a-footer
         padding:0px;
         height: 35px;
     }
-    .ul-2 {
+
+    .ul-2 
+    {
         text-align: left;
     }
+
     .caja-logo-footer 
     {
         position: relative;
         left: 2%;
         margin-bottom: 10%;
     }
+
     .caja_datos 
     {
         float: left;
@@ -284,11 +296,13 @@ a.a-footer
         width: 95%;
         text-align: left;
     }
+
     .pas-3 
     {
         margin-left: 0px;
         text-align: left;
     }
+
     .pas-4 
     {
     text-align: left;
@@ -303,6 +317,7 @@ a.a-footer
         float: left;
         left: 15%;
     }
+
     .inform-comerc 
     {
         left: 15%;
@@ -317,14 +332,17 @@ a.a-footer
         float: left;
         left: 12%;
     }
+
     .inform-comerc 
     {
         left: 12%;
     }
+
     .caja-logo-footer 
     {
         left: -3%;
     }
+    
     .footer_gral 
     {
         margin-top: 20%;
