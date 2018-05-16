@@ -10,7 +10,7 @@
 
 
 {% block javascript %}
-<script type="text/javascript" src="{{ site_base }}/static/js/dermatologia.js"></script>
+<script type="text/javascript" src="{{ site_base }}/{{ nocache_static }}/js/dermatologia.js"></script>
 <script type="text/javascript">
   $(window).scroll(function(){
 
@@ -67,8 +67,8 @@ $(document).ready(function(){
 {% end %}
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{{ site_base }}/common/js/bodegas/dist/bodegas.client.css?22">
-<link rel="stylesheet" href="{{ site_base }}/static/css/servicios.css?22">
-<link rel="stylesheet" href="{{ site_base }}/static/css/header_inside.css?22">
+<link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/css/servicios.css?22">
+<link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/css/header_inside.css?22">
 
 {% end %}
 
