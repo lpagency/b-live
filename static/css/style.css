@@ -23,7 +23,8 @@ a:focus
     outline-offset: -2px;
 }
 
-a:hover, a:focus
+a:hover,
+a:focus
 {
     color: #ccc;
     text-decoration: none;
@@ -206,7 +207,6 @@ div.image-upload input
 {
     position: relative;
     top: 92px;
-    ;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -352,7 +352,6 @@ textarea
     padding-right: 21px;
 }
 
-
 .image-cir img
 {
     width: 94%;
@@ -426,7 +425,7 @@ img.change-image
 }
 
 @media (max-width: 768px)
-{   
+{
     h1,
     .h1
     {
@@ -529,7 +528,7 @@ img.change-image
     {
         margin-bottom: 30% !important;
     }
-        
+
     h1,
     .h1
     {
