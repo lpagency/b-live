@@ -9,7 +9,7 @@
 {% end %}
 
 {% block javascript %}
-<script type="text/javascript" src="{{ site_base }}/static/js/frubik.js"></script>
+<script type="text/javascript" src="{{ site_base }}/{{ nocache_static }}/js/frubik.js"></script>
 <script type="text/javascript">
     $(document).ready(function()
     {
@@ -59,8 +59,8 @@
 {% end %}
 
 {% block css %}
-<link type="text/css" rel='stylesheet' href="{{ site_base }}/static/css/page.edit.css" />
-<link rel="stylesheet" href="{{ site_base }}/static/css/header_inside.css?22">
+<link type="text/css" rel='stylesheet' href="{{ site_base }}/{{ nocache_static }}/css/page.edit.css" />
+<link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/css/header_inside.css?22">
 <style type="text/css">
     .controls input, .controls textarea
     {
