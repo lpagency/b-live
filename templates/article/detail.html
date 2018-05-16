@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="{{ site_base }}/static/css/textbox_io.css?22" type="text/css">
         <link rel="stylesheet" href="{{ site_base }}/static/css/detalle_articulos.css?22">
     {% end %}
+    <link rel="stylesheet" href="{{ site_base }}/static/css/detalle-articulos.css?22">
     <style type="text/css">
         html, body
         {
@@ -42,6 +43,8 @@
     <script type="text/javascript">
         $(document).ready(function()
         {
+            $("#sidebar-wrapper").toggleClass("active");
+
             var h = $(".tags").html();
             var tag = h.split(",");
 
