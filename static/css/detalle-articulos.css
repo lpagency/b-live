@@ -1,0 +1,25 @@
+#sidebar-wrapper
+{
+    left: -250px;
+}
+
+.header-container
+{
+    height: 180px;
+    position: relative;
+}
+
+.banner-detalle
+{
+    height: 640px;
+}
+
+.logo_wrapper
+{
+    left: 10px;
+}
+
+#menu-toggle
+{
+    right: 0px;
+}
