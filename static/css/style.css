@@ -42,6 +42,12 @@ a:hover .nombre-servicios-home
     background-color: #80808085;
 }
 
+.mini-articulos:active
+{
+    opacity: 0.8;
+    background-color: #80808085;
+}
+
 a.vermasbtn:hover
 {
     text-decoration: underline;
