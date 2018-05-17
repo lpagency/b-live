@@ -13,7 +13,7 @@ a
 
 a:hover
 {
-    text-decoration: none;
+    text-decoration: underline;
     color:#484848;
 }
 
@@ -28,7 +28,23 @@ a:hover,
 a:focus
 {
     color: #ccc;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+a:hover .nombre-servicios-home
+{
+    text-decoration: underline;
+}
+
+.mini-articulos:hover
+{
+    opacity: 0.8;
+    background-color: #80808085;
+}
+
+a.vermasbtn:hover
+{
+    text-decoration: underline;
 }
 
 li
