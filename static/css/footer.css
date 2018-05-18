@@ -319,6 +319,11 @@ a.a-footer
     {
         left: 15%;
     }
+
+    hr
+    {
+        left: 0px;
+    }
 }
 
 @media (max-width: 320px)
